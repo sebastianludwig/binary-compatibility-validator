@@ -10,7 +10,7 @@ import org.assertj.core.api.*
 import org.junit.Test
 import kotlin.test.*
 
-internal class DefaultConfigTests : BaseKotlinGradleTest() {
+class DefaultConfigTests : BaseKotlinGradleTest() {
 
     @Test
     fun `apiCheck should fail, when there is no api directory, even if there are no Kotlin sources`() {

@@ -17,7 +17,7 @@ import org.junit.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
-internal class SubprojectsWithPluginOnSubTests : BaseKotlinGradleTest() {
+class SubprojectsWithPluginOnSubTests : BaseKotlinGradleTest() {
 
     /**
      * Sets up a project hierarchy like this:

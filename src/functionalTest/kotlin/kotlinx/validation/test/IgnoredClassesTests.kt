@@ -18,7 +18,7 @@ import org.assertj.core.api.Assertions
 import org.junit.Test
 import kotlin.test.assertTrue
 
-internal class IgnoredClassesTests : BaseKotlinGradleTest() {
+class IgnoredClassesTests : BaseKotlinGradleTest() {
 
     @Test
     fun `apiCheck should succeed, when given class is not in api-File, but is ignored via ignoredClasses`() {

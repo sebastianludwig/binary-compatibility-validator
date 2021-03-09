@@ -16,7 +16,7 @@ import org.assertj.core.api.Assertions
 import org.junit.Test
 import kotlin.test.assertTrue
 
-internal class SubprojectsWithPluginOnRootTests : BaseKotlinGradleTest() {
+class SubprojectsWithPluginOnRootTests : BaseKotlinGradleTest() {
 
     /**
      * Sets up a project hierarchy like this:
